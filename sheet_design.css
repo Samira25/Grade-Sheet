@@ -1,0 +1,53 @@
+h1{
+  text-align: center;
+}
+
+input[type=text]{
+  padding: 10px;
+  width: 100%;
+  margin: 8px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: lightgrey;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+input[type=number]{
+  padding: 5px;
+  width: 100%;
+  margin: 8px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: lightgrey;
+  display: inline-block;
+  border: 1px solid #ccc;
+  size: 50%;
+}
+
+input[type=button]{
+  padding: 10px;
+  width: 100%;
+  margin: 8px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: lightgreen;
+  color: black;
+  cursor: pointer;
+}
+
+input[type=text]:focus, input[type=number]:focus{
+  background-color: lightblue;
+}
+
+span{
+  text-align: left;
+  display: inline-block;
+  height: 50px;
+}
+
+b{
+  text-align: right;
+}
